@@ -1,0 +1,39 @@
+﻿@model dontTrustMe.Models.Yummy
+@{
+    Layout = "~/Views/_Yummie.cshtml";
+}
+<div>
+    <p>@Model.Name</p>
+    <img src="@Model.Img"/>
+    <p>@Model.Desc</p>
+    <p>@Model.Price руб.</p>
+</div>
+<div class="form_block" id="output">
+    <form class="forma" id="benderform" action="https://localhost:5001/api/Comment" >
+        <p class="form_txt"><b>Оставьте свой комментарий:</b></p>
+        <input class="form_input" type="text" maxlength="100" name="nick" placeholder="введите никнейм">
+        <textarea class="area" maxlength="1000" name="comm" placeholder="Оставьте комментарий"></textarea><br>
+        <input type="submit" value=" Отправить">
+    </form>
+    <script>
+        document.getElementById('benderform').addEventListener('submit', submitForm);
+        let k = document.getElementById('benderform');
+        function submitForm(event) {
+
+            event.preventDefault();
+
+            let obj = {
+                nick: k.children.item(1).value,
+                text: k.children.item(2).value,
+                dt: new Date()
+            };
+
+            var json = JSON.stringify(obj);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", event.target.action, true)
+            xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+            xhr.send(json);
+        }
+    </script>
+</div>

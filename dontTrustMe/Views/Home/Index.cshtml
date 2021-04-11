@@ -1,0 +1,19 @@
+﻿@model IEnumerable<dontTrustMe.Models.Yummy>
+@{
+    Layout = "~/Views/_Yummie.cshtml";
+}
+
+<div class="main">
+    @{foreach (var item in Model)
+        {
+            <div class="wrapper">
+                <div class="contant">
+                    <p class="main__name">@item.Name</p>
+                    <a href='@Url.Action("CurrentYum","Home", new { id = item.ID})'>
+                        <img class="main__image" src="@item.Img" />
+                    </a>
+                </div>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.exe
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.deps.json
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.runtimeconfig.json
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.dll
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\bin\Debug\netcoreapp3.1\DataTacker.pdb
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.dll
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.pdb
+C:\Users\ASUS\source\repos\dontTrustMe\DataTacker\obj\Debug\netcoreapp3.1\DataTacker.genruntimeconfig.cache

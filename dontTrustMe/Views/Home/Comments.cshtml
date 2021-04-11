@@ -1,0 +1,13 @@
+﻿@model List<dontTrustMe.Models.Comment>
+@{
+    Layout = "~/Views/_Yummie.cshtml";
+}
+@{
+    foreach (var item in Model)
+    {
+    <div>
+        <p> @item.nick </p>
+        <p> @item.text </p>
+    </div>
+    }
+}

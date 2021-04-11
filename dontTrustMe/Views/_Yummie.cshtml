@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/new.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/cur.css" type="text/css" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="block">
+        <a href='@Url.Action("Index","Home")'>
+            <p class="blockContent">LudmilaFlowers</p>
+        </a>
+        <div>
+            <a href='@Url.Action("Comments","Home",new { id = 1 })'>Комментарии</a>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <p class="main__name">текст</p>
+    </footer>
+</body>
+</html>
